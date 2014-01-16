@@ -1,0 +1,14 @@
+﻿body {
+}
+
+#inventory{
+    float: left;
+}
+
+#ui-inventory{
+    border: 1px solid #eee;
+}
+
+#crafting{
+    float: right;
+}

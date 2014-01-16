@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<div id="inventory">
+
+    <h1>Inventory</h1>
+
+    <div id="ui-inventory"></div>
+
+</div>
+
+<div id="crafting-pane">
+
+    <h1>Crafting</h1>
+
+    <form>
+        <label>
+            Wood:
+            <input id="qty-wood" type="number" value="0" min="0" max="9" />
+        </label>
+        <label>
+            Metal:
+            <input id="qty-metal" type="number" value="0" min="0" max="9" />
+        </label>
+
+        <label>
+            Custom item name:
+            <input type="text" placeholder="name" />
+        </label>
+
+        <button id="make" type="button">Craft!</button>
+    </form>
+
+</div>
